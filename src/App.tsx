@@ -1,5 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import avatar_image from "./images/beautiful-latin-woman-avatar-character-icon-free-vector.jpg";
 import resume_image from "./images/resume.webp";
