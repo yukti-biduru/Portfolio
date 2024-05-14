@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Panel_Header {
+  height: 50vh;
+  background-color: #005f7d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Comfortaa";
+  font-size: 6vh;
+  color: #ffffff;
+}
+
+.Panel_Teal {
+  height: 20vh;
+  background-color: #005f7d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Comfortaa";
+  font-size: 2.5vh;
+  color: #ffffff;
+}
+
+.Panel_Teal2 {
+  background-color: #005f7d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Comfortaa";
+  font-size: 2vh;
+  color: #ffffff;
+}
+
+.Panel_White {
+  height: 50vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Comfortaa";
+  font-size: 2.3vh;
+  color: #005f7d;
+}
+
+.Panel_White2 {
+  height: auto;
+  background-color: #ffffff;
+  font-family: "Comfortaa";
+  font-size: 2.3vh;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  color: #005f7d;
+  padding: 3vh;
+}
+
+.Panel_Container {
+  display: flex;
+}
+
+.download_text {
+  color: #ffffff;
+}
+
+.Panel_Col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  text-wrap: pretty;
+  padding: 3vw;
+}
+.Panel_Col2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  text-wrap: pretty;
+  padding: 3vh;
+}
+
+.Panel_Col2_Time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  text-wrap: pretty;
+  width: 15vw;
+}
+.Panel_Col2_Info {
+  justify-content: center;
+  align-items: center;
+  text-wrap: pretty;
+  width: 45vw;
+}
+
+.image {
+  height: 20vh;
+  width: auto;
+  display: flex;
+  padding: 3vh;
+}
+
+.image2 {
+  height: 5vh;
+  width: auto;
+  display: flex;
+  padding: 3vh;
+}
+
+.image_avatar {
+  height: auto;
+  width: 20vw;
+}
+
+.col_heading_height {
+  height: 10vh;
+}
+.col_info_height {
+  height: 90vh;
+  font-size: 2vh;
+}
+
+.font-size1 {
+  font-size: 2;
+}
+
+.font-size2 {
+  font-size: 2.5;
+}
+.col_timeline_width1 {
+  width: 10vw;
+}
+.col_timeline_width2 {
+  width: 70vw;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
